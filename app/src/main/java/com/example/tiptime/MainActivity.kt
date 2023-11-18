@@ -16,7 +16,7 @@ class MainActivity : AppCompatActivity() {
 
     }
         fun calgulateTip(){
-            val stringInTextField = binding.costOfService.text.toString()
+            val stringInTextField = binding.costOfServiceEditText.toString()
             val cost = stringInTextField.toDouble()
             val selectId = binding.tipOptions.checkedRadioButtonId
 
